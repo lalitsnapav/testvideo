@@ -68,5 +68,6 @@ module Testvideo
     config.assets.version = '1.0'
 
     config.app_generators.scaffold_controller = :scaffold_controller
+    config.assets.precompile += ['my_styles.css']
   end
 end
