@@ -34,6 +34,7 @@ gem 'jquery-rails'
 gem 'formtastic'
 gem 'formtastic-bootstrap'
 gem 'kaminari'
+gem 'figaro'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'devise'
 

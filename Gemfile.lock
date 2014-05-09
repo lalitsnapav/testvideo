@@ -76,6 +76,9 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     formtastic (2.3.0.rc3)
       actionpack (>= 3.0)
     formtastic-bootstrap (3.0.0)
@@ -179,6 +182,7 @@ DEPENDENCIES
   binding_of_caller
   coffee-rails (~> 3.2.1)
   devise
+  figaro
   formtastic
   formtastic-bootstrap
   jquery-rails
