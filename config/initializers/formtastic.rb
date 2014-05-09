@@ -88,3 +88,6 @@
 # this to true. Doing so will add a `novalidate` attribute to the `<form>` tag.
 # See http://diveintohtml5.org/forms.html#validation for more info.
 # Formtastic::FormBuilder.perform_browser_validations = true
+
+# config/initializers/formtastic.rb
+Formtastic::Helpers::FormHelper.builder = FormtasticBootstrap::FormBuilder
