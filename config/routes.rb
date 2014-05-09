@@ -1,10 +1,12 @@
 Testvideo::Application.routes.draw do
 
-  root to: 'pages#show', id: 'home'
-
   get "dashboard/index"
 
+  root to: 'pages#show', id: 'home'
+
   devise_for :users
+
+  mount Ckeditor::Engine => '/ckeditor'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
