@@ -9,3 +9,7 @@
 <% end %>
 <hr/>
 <%= link_to 'Join', new_user_registration_path, class: "btn btn btn-block btn-main" %>
+<% if user_signed_in? %>
+    <hr/>
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete, class: "btn btn btn-block btn-main" %>
+<% end %>
