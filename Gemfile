@@ -31,7 +31,11 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'formtastic'
+gem 'formtastic-bootstrap'
+gem 'kaminari'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'devise'
 
 
 # To use ActiveModel has_secure_password
