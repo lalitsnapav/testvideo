@@ -1,0 +1,6 @@
+<%=form_tag({controller: "dashboard", action: "upload"}, method: "post", class: "form-horizontal",:multipart => true) do %>
+	<%=text_field_tag 'title',nil,:placeholder=>"Title",:class=>"form-control",:length=>30%><br>
+	<%=text_field_tag 'description',nil, :placeholder=>"Description",:class=>"form-control",:size=>30%><br>
+	<%= file_field_tag 'upload_video' %> </br>
+	<%= submit_tag "Upload",:class=>"btn btn-block btn-main"%>
+<%end%>

@@ -1,7 +1,8 @@
 Testvideo::Application.routes.draw do
 
   get "dashboard/index"
-
+  
+  post "dashboard/upload"
   root to: 'pages#show', id: 'home'
 
   devise_for :users

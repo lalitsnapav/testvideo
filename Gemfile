@@ -53,3 +53,8 @@ gem 'devise'
 
 # To use debugger
 # gem 'debugger'
+
+### added youtube gem
+
+gem 'youtube_it'
+
