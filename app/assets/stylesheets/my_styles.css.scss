@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+
+body {
+  background-color: #FFFFFF;
+  /*color: #162636;*/
+  color: #5C5C5C;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 60px;
+}
+
+a {
+  color: #A30045;
+  text-decoration: none;
+}
+
+
+/*************************************
+**************************************
+**************************************
+
+    BEGIN HEADER STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+header {
+  padding:15px 0;
+  margin-bottom: 35px;
+}
+
+.event-date {
+  text-align:right;
+  color: #A30045;
+}
+
+.navbar-brand {
+  font-family: 'Calligraffitti', cursive;
+  font-size: 18px;
+}
+
+.btn-main {
+  color: #fff;
+  background-color: #A22948;
+  border-color: #A22948;
+}
+
+.btn:hover, .btn:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.promo-red {
+  color: #F4736C;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #F4736C;
+  border-color: #F4736C;
+}
+
+.promo-blue {
+  color: #3A95D1;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #3A95D1;
+  border-color: #3A95D1;
+}
+
+.promo-green {
+  color: #34B196;
+}
+
+.btn-green {
+  color: #fff;
+  background-color: #34B196;
+  border-color: #34B196;
+}
+
+.promo-yellow {
+  color: #FFD44A;
+}
+
+.btn-yellow {
+  color: #fff;
+  background-color: #FFD44A;
+  border-color: #FFD44A;
+}
+
+.promo-main {
+  color: #A30045;
+}
+
+
+
+/*************************************
+**************************************
+**************************************
+
+    END HEADER STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+
+
+
+/*************************************
+**************************************
+**************************************
+
+    BEGIN NAV STYLES
+
+**************************************
+**************************************
+**************************************/
+
+#nav {
+  clear: both;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid #DFDFDF;
+}
+
+.navbar-default {
+  background-color: #A30045;
+  /*border-color: #E7E7E7;*/
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #162636;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #FFFFFF;
+  background-color: #8F003C;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+  color: #FFFFFF;
+  background-color: #8F003C;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  background-color: #8F003C;
+  color: #FFFFFF;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: #fff;
+  background-color: #A30045;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #8F003C;
+}
+
+
+/*************************************
+**************************************
+**************************************
+
+   END NAV STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+
+
+
+/*************************************
+**************************************
+**************************************
+
+    BEGIN CONTENT STYLES
+
+**************************************
+**************************************
+**************************************/
+
+.content {
+  border-top: 1px solid #DFDFDF;
+}
+.content > .container {
+  padding: 30px 10px;
+}
+.promos  {
+  /*background-color: #5C5C5C;*/
+  background-color: #F8F8F8;
+  min-height: 200px;
+  padding: 30px 0;
+}
+.signoff {
+  padding: 10px 0;
+  background-color: #A30045;
+  color: #FFFFFF;
+}
+
+.bucket h3 {
+  text-align: center;
+}
+
+
+
+.bucket {
+  background-color: #FFFFFF;
+  border: 1px solid #DFDFDF;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/*************************************
+**************************************
+**************************************
+
+     END CONTENT STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+
+
+
+
+/*************************************
+**************************************
+**************************************
+
+     BEGIN FOOTER STYLES
+
+**************************************
+**************************************
+**************************************/
+
+footer {
+  /*background-color: #333333;*/
+  background-color: #868586;
+  padding:45px 0;
+  color: #FFFFFF;
+  min-height:150px;
+}
+
+.footer-button {
+  margin-bottom:30px;
+}
+
+footer hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: transparent;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+footer a:hover {
+  color: #A22948;
+}
+
+
+/*************************************
+**************************************
+**************************************
+
+     END FOOTER STYLES
+
+**************************************
+**************************************
+**************************************/
+
+
+
+
+
+.margin-20 {
+  margin-bottom: 20px !important;
+}
+
+
+
+
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+
+
+
+/* bootstrap 3 helpers */
+
+.navbar-form input, .form-inline input {
+  width:auto;
+}
+
+
+
+@media screen and (max-width: 992px) {
+
+  header {
+    padding: 10px 0 0;
+    margin-bottom: 5px;
+  }
+
+
+  .text-right {
+    text-align: left;
+  }
+
+  .event-date {
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: none;
+  }
+}
